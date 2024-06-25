@@ -248,6 +248,7 @@ ro.opengles.version=196610
 vendor.gralloc.disable_ubwc=0
 debug.sf.frame_rate_multiple_threshold=120
 debug.sf.defer_refresh_rate_when_off=1
+debug.sf.enable_transaction_tracing=false
 
 # HVDCP
 persist.vendor.pps.disallowed=1
