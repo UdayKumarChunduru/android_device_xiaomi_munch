@@ -88,9 +88,6 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             grep -q "libpiex_shim.so" "${2}" || "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
-        vendor/etc/media_codecs_kona.xml)
-            sed -i "/media_codecs_dolby_audio.xml/d" "${2}"
-            ;;
         vendor/lib64/libril-qc-hal-qmi.so)
             [ "$2" = "" ] && return 0
             sed -i 's|ro.product.vendor.device|ro.vendor.radio.midevice|g' "${2}"
