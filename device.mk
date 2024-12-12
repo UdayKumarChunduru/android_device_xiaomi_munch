@@ -162,8 +162,10 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer \
     XiaomiDolby \
     XiaomiParts
+
 
 # Display
 PRODUCT_PACKAGES += \
