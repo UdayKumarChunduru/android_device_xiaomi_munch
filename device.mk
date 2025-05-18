@@ -19,6 +19,9 @@ ifeq ($(TARGET_USES_DOLBY),true)
 $(call inherit-product, hardware/dolby/dolby.mk)
 endif
 
+# Call the BCR setup
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
 # Private key for signed build
 -include vendor/private-keys/keys/keys.mk
 
