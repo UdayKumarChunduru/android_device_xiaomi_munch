@@ -464,3 +464,7 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
+
+# Inherit BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
+
