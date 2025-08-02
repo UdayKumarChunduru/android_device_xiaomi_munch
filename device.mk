@@ -468,3 +468,5 @@ $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
 # Inherit BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
 
+# Inherit ViPER4AndroidFX
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
