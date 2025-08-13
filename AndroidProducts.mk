@@ -5,5 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_munch.mk
+    $(LOCAL_DIR)/clover_munch.mk
 

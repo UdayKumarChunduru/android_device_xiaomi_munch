@@ -8,20 +8,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common infinity stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+# Inherit some common clover stuff.
+$(call inherit-product, vendor/clover/config/common_full_phone.mk)
 
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-PRODUCT_NAME := infinity_munch
+PRODUCT_NAME := clover_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Poco
 PRODUCT_MODEL := 22021211RG
-
-INFINITY_MAINTAINER := "HDzungx"
-WITH_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
