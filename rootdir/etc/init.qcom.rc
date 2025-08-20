@@ -858,4 +858,3 @@ service surfaceflinger /system/bin/surfaceflinger
     user system
     group graphics drmrpc
     capabilities SYS_NICE
-    writepid /dev/cpuset/system-background/tasks
