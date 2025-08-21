@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About Phone -->
+    <string name="lunaris_device_message">POCO F4 ✧ munch</string>
+    <string name="lunaris_processor_code_message">
+        Qualcomm SM8250-AC Snapdragon 870 5G (7 nm)
+    </string>
+    <string name="lunaris_battery_type_message">4500 mAh</string>
+    <string name="lunaris_screen_message">1080×2400 AMOLED@120 Hz</string>
+
+</resources>
+
