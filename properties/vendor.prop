@@ -361,3 +361,4 @@ wifi.aware.interface=wifi-aware0
 
 # Zygote
 zygote.critical_window.minute=10
+ro.zygote.disable_gl_preload=1
